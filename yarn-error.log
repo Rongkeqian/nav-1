@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Software\node.js\node.exe C:\Software\yarn\bin\yarn.js bulid
+
+PATH: 
+  C:\Software\Cmder\vendor\git-for-windows\mingw64\bin;C:\Software\Cmder\vendor\git-for-windows\usr\bin;C:\Users\ASUS\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Software\yarn\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Software\Hugo;C:\Software\node.js;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Local\Yarn\bin;C:\Users\ASUS\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.21.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\ASUS\Desktop\nav-1\package.json: Unexpected token : in JSON at position 9
+      at JSON.parse (<anonymous>)
+      at C:\Software\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Software\yarn\lib\cli.js:310:30)
+      at C:\Software\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  "scripts":{
+    "build":"parcel bulid src/index.html  --no-minify --public-url ./"
+  },
+  {
+    "devDependencies": {
+      "cssnano": "^4.1.10"
+    },
+    "name": "nav-1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:Rongkeqian/nav-1.git",
+    "author": "RongKeQian <qianer_lover@126.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
