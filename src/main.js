@@ -70,6 +70,7 @@ window.onbeforeunload = () => {
   localStorage.setItem("x", string);
 };
 
+//键盘事件
 $(document).on("keypress", (e) => {
   //console.log(e.key);
 
