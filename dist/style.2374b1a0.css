@@ -30,7 +30,7 @@ img {
 }
 /*   style  */
 body {
-  background: #eeeeee;
+  background: #f3f2f2;
 }
 .globalHeader {
   margin: 20px;
@@ -58,6 +58,12 @@ body {
   padding: 0 10px;
   border: 1px solid #dddddd;
   border-radius: 4px;
+}
+@media (min-width: 500px) {
+  .searchForm > input:focus {
+    outline: none;
+    border: 1px solid #8f8f8f;
+  }
 }
 .searchForm > button {
   white-space: nowrap;
@@ -93,6 +99,10 @@ body {
   .siteList > li {
     margin-right: 25px;
   }
+  .siteList .site:hover {
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
 }
 .siteList .site {
   width: 160px;
@@ -114,7 +124,6 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 64px;
-  text-transform: uppercase;
 }
 .siteList .site > .link {
   font-size: 14px;
@@ -136,6 +145,7 @@ body {
   display: none;
   cursor: default;
 }
+
 .siteList .site:hover .close {
   display: block;
 }
@@ -149,6 +159,12 @@ body {
   background: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 4px;
+}
+@media (min-width: 500px) {
+  .siteList .addButton:hover {
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
 }
 .siteList .addButton .text {
   font-size: 14px;
@@ -167,4 +183,4 @@ body {
 }
 
 
-/*# sourceMappingURL=style.03f06ebe.css.map */
+/*# sourceMappingURL=style.2374b1a0.css.map */

@@ -179,7 +179,8 @@ window.onbeforeunload = function () {
   //   console.log(string);
 
   localStorage.setItem("x", string);
-};
+}; //键盘事件
+
 
 $(document).on("keypress", function (e) {
   //console.log(e.key);
@@ -193,4 +194,4 @@ $(document).on("keypress", function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.2b60a9b2.js.map
+//# sourceMappingURL=main.bed5586c.js.map
